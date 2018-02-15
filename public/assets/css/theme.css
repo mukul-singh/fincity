@@ -1,0 +1,348 @@
+@media (max-width: 768px) {
+    .xs-nopad {
+        padding:0px !important;
+    }
+    .xs-pad-15 {
+        padding: 5px 15px !important;
+    }
+    .clients-list-wrap {
+        width: 100% !important;
+    }
+    ul.timeline li {
+        width: auto !important;
+    }
+}
+.pad-r5 {
+    padding-right: 5px;
+}
+.pad-l5 {
+    padding-left: 5px;
+}
+.pad-10 {
+    padding: 10px;
+}
+.pad-15 {
+    padding: 15px;
+}
+.pad-5-10 {
+    padding: 5px 10px;
+}
+.pad-0-10 {
+    padding: 0 10px;
+}
+.nopad {
+    padding: 0px !important;
+}
+.pad-r0 {
+    padding-right: 0;
+}
+.pad-l0 {
+    padding-left: 0;
+}
+.pad-t0 {
+    padding-top: 0;
+}
+.pad-b0 {
+    padding-bottom: 0;
+}
+.pad-l30 {
+    padding-left: 30px;
+}
+.nomar {
+    margin: 0 !important;
+}
+.mar-t0 {
+    margin-top: 0;
+}
+.mar-r5 {
+    margin-right: 5px;
+}
+.bot-5 {
+    height: 5px;
+}
+.bot-10 {
+    height: 10px;
+}
+.bot-15 {
+    height: 15px;
+}
+.in-bl {
+    display: inline-block;
+}
+.clear-back {
+    background: #FFF;
+}
+.clear-color {
+    color: #FFF;
+}
+.no-back {
+    background: none;
+}
+.fin-color-back {
+    background: #14508E;
+}
+.rounded {
+    border-radius: 4px;
+}
+.w-auto {
+    width: auto !important;
+}
+.center {
+    float: none !important;
+    margin: auto;
+}
+.bordered {
+    border: 1px solid rgba(0,0,0,0.2);
+}
+.bordered-l {
+    border-left: 1px solid rgba(0,0,0,0.2);
+}
+.bordered-r {
+    border-right: 1px solid rgba(0,0,0,0.2);
+}
+.bordered-b {
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.lgrey {
+    color: #666 !important;
+}
+.llgrey {
+    color: #999;
+}
+.lllgrey {
+    color: #bebebe;
+}
+.pointer {
+    cursor: pointer;
+}
+.full-w {
+    width: 100%;
+}
+.half-w {
+    width: 50%;
+}
+.full-h {
+    height: 100%;
+}
+.min-w70 {
+    min-width: 70px;
+}
+.back-grey {
+    background: #F2F2F2;
+}
+.font-14 {
+    font-size: 14px;
+    vertical-align: bottom;
+}
+.op-back {
+    background: rgba(0, 0, 0, 0.4);
+}
+.trans {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.shad {
+    box-shadow: 0 1px 1px rgba(0,0,0,.15);
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.15);
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,.15);
+}
+.popover.error-alert {
+    font-size: 12px;
+    color: #FFF;
+    background-color: #C04848;
+    border: none;
+}
+.popover.error-alert.top > .arrow:after {
+    border-top-color: #C04848;
+}
+.popover.error-alert.right > .arrow:after {
+    border-right-color: #C04848;
+}
+.popover.error-alert.bottom > .arrow:after {
+    border-bottom-color: #C04848;
+}
+.popover.error-alert.left > .arrow:after {
+    border-left-color: #C04848;
+}
+.bold {
+    font-weight: bold;
+}
+.trans {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.spinner {
+  border: 2px solid #E2E2E2;
+  border-radius: 50%;
+  border-top: 2px solid #333;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  -webkit-animation: spin 0.7s linear infinite;
+  animation: spin 0.7s linear infinite;
+}
+.spinner.white {
+    border-top: 2px solid #000;
+}
+.spinner.white.xs {
+    width: 13px;
+    height: 13px;
+    border: 2px solid #FFF;
+    border-top: 2px solid #000;
+}
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+body {
+    color: #333;
+    font-family:"Open Sans", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #ECECEC;
+}
+table tr th {
+    border-top: 0 !important;
+}
+table td {
+    vertical-align: middle !important;
+}
+.borderless td, .borderless th {
+    border: none !important;
+}
+hr {
+    border-top: 1px solid #ddd;
+}
+.fin-nav {
+    z-index: 100;
+    position: fixed;
+}
+.text-primary {
+    color: #14508E;
+}
+.sidebar {
+    position: fixed;
+    height: 100vh;
+    color: #5781AB;
+}
+.sidebar div {
+    height: 60px;
+    cursor: pointer;
+}
+.sidebar div:hover {
+    font-size: 36px;
+    padding: 0;
+}
+.graph {
+    width: 150px;
+    height: 150px;
+}
+.section-wrap {
+    padding: 5px;
+}
+.pipeline-section {
+    padding: 10px 15px;
+    max-height: 600px;
+    overflow: auto;
+    white-space: nowrap;
+}
+.fin-scroll::-webkit-scrollbar {width:8px; height:8px;}
+.fin-scroll::-webkit-scrollbar-thumb {background:rgba(0,0,0, 0.08);border-radius:3px;}
+.fin-scroll::-webkit-scrollbar-thumb:hover {border:1px solid #888;}
+.fin-scroll::-webkit-scrollbar-track {background:#ebebeb;}
+.fin-scroll:hover::-webkit-scrollbar-thumb {background-color:#999;}
+.fin-scroll:hover::-webkit-scrollbar-track {background:rgba(0,0,0, 0.08);}
+.clients-list-wrap {
+    width: 25%;
+    padding: 0 0 0 10px;
+    margin: 0 15px 45px 0;
+}
+.clients-list-wrap .clients-list {
+    max-height: 400px;
+    overflow: auto;
+    white-space: nowrap;
+}
+.client-wrap {
+    margin-bottom: 3px;
+}
+.client-wrap .client-logo {
+    max-width: 80px;
+}
+ul.timeline li {
+    padding: 5px 10px;
+    text-align: center;
+    cursor: pointer;
+    width: 100px;
+    border-right: 1px solid rgba(0,0,0,0.2);
+}
+ul.timeline li:last-child {
+    border-right: 0px;
+}
+ul.timeline li.active {
+    margin-left: -5px;
+    background: #14508E;
+    color: #fff;
+}
+ul.timeline li:hover {
+    color: #000;
+}
+ul.timeline li.active:hover {
+    color: #fff;
+}
+.fin-gold {
+    background: #5DA8FB;
+    color: #5DA8FB;
+}
+.fin-platinum {
+    background: #0163AE;
+    color: #0163AE;
+}
+.fin-diamond {
+    background: #82D7FC;
+    color: #82D7FC;
+}
+#chartContainer {
+    height: 500px;
+}
+.overlay {
+    z-index: 90;
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    margin-left: -15px;
+    width: 100%;
+    height: 100%;
+}
+.overlay .spinner {
+    position: fixed;
+    top: 200px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 40px;
+}
+#fin-modal .fin-scroll {
+    max-height: 350px;
+    overflow: auto;
+}
+.noti-count {
+    font-size: 14px;
+    color: #fff;
+    background: rgb(223, 73, 46);
+    border-radius: 50%;
+    padding: 1px 6px;
+    vertical-align: 15px;
+    margin-left: -8px;
+}
